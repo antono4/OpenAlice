@@ -515,3 +515,7 @@ Stuck? Here's the recommended path, roughly in order:
 ## License
 
 [AGPL-3.0](LICENSE)
+
+---
+
+> **Created by Antono**
