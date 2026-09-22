@@ -1,78 +1,33 @@
-<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
+# open-alice
 
-<h1 align="center">Project 👋</h1>
+File-based trading agent engine
 
-<p align="center">
-  <strong></strong>
-</p>
+## 📋 Overview
 
-<p align="center">
-  <a href="https://github.com/antono4/OpenAlice"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/OpenAlice-blue?logo=github"></a>
-  <a href="https://antono4.github.io/OpenAlice/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-1835-informational">
-  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-22 21:42:33 WIB-lightgrey">
-</p>
+This repository contains **1835 files** and is built with the following technologies:
 
----
+Node.js, JavaScript, Docker
 
-## 📖 Tentang
-
-Repository **`OpenAlice`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/OpenAlice/`](https://antono4.github.io/OpenAlice/).
-
-## 🗂️ Struktur Proyek
-
-```
-OpenAlice/
-├── index.html          # Halaman utama (landing / portofolio)
-├── assets/             # Aset statis (css, js, img, vendor)
-├── forms/               # Form handler (PHP)
-└── ui/              # OpenAlice  ->  https://antono4.github.io/OpenAlice/ui/
-```
-
-## 🌐 Sub-Proyek / Demo
-
-Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
-
-| Folder | Demo Live | Keterangan |
-|--------|-----------|-----------|
-| [`ui`](./ui) | [https://antono4.github.io/OpenAlice/ui/](https://antono4.github.io/OpenAlice/ui/) | OpenAlice |
-
-## 🛠️ Teknologi
-
-Berdasarkan isi repository, proyek ini menggunakan:
-
-- `HTML`
-- `CSS`
-- `JavaScript`
-- `Python`
-- `React`
-
-> Total **1835 file** terdeteksi di repository.
-
-## 🚀 Menjalankan Secara Lokal
-
-Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+## 🚀 Quick Start
 
 ```bash
-# Tanpa dependency
-python3 -m http.server 8000
-# lalu buka http://localhost:8000
-
-# atau dengan PHP (untuk form handler di forms/)
-php -S localhost:8000
+npm install
+npm run dev
+npm run build
 ```
 
-## 📬 Kontak
+## ✨ Features
 
-- GitHub: [antono4](https://github.com/antono4)
-- Situs: [https://antono4.github.io/OpenAlice/](https://antono4.github.io/OpenAlice/)
+- 🐳 Docker support
+- 📝 Auto-generated documentation
 
-## 📄 Lisensi
+## 🛠️ Technologies
 
-Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+Node.js, JavaScript, Docker
+
+## 📄 License
+
+MIT License
 
 ---
-
-<sub>README ini di-generate otomatis pada **2026-09-22 21:42:33 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
-Last updated: 2026-09-23 00:44:37 WIB
+*Last updated: 2026-09-23 00:46:45 WIB*
